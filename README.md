@@ -3,6 +3,10 @@
 This project was built by using React, React-Redux with toolkit, Redux-Saga for http requests, and NodeJS for the backend.
 In this project, I have tried to clone Instagram from strach.
 
+## DEMO
+
+https://instagram-clone-ca661.web.app/
+
 ## Features
 
 * following and followers algorithm.
