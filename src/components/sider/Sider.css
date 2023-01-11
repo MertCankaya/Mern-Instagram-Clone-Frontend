@@ -1,0 +1,111 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.sider__wrapper{
+  position: fixed;
+  border-right: 1px solid gray;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: black;
+  z-index: 100;
+}
+
+.sider__text__logo{
+  width: 150px;
+  padding: 2rem 1.5rem;
+  margin-left: 0.6rem;
+  opacity: 0.85;
+  margin-top: 0.7rem;
+}
+
+.sider__text__logo:hover {
+  cursor: pointer;
+}
+
+.sider__Inner__Wrapper {
+  padding: 0rem 0.5rem;
+}
+
+.sider__Inner__Wrapper > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.45rem;
+  margin-bottom: 1.1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  color: white;
+  text-decoration: none;
+}
+
+.sider__Inner__Wrapper > a > div {
+  margin-left: 1rem;
+}
+
+.sider__Inner__Wrapper > a:hover{
+  cursor: pointer;
+  background-color: rgb(41, 40, 40);
+}
+
+.sider__Inner__Wrapper > a:active {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.sider__insta__logo {
+  margin: 1rem;
+  padding: 1rem 0.5rem;
+}
+
+@-webkit-keyframes inAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,91 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+.profile__top__wrapper{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 1rem 2.75rem;
+  border-bottom: 1px solid white;
+  margin-bottom: 1rem;
+}
+
+.profile__top__info__wrapper {
+  padding: 1rem;
+  margin-left: 4rem;
+}
+
+.profile__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.1rem;
+}
+
+.profile__flex > div {
+  margin-right: 2rem;
+  font-size: 1.1rem;
+}
+
+.profile__adjust__profile__button {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+}
+
+.profile__adjust__profile__button:hover {
+  cursor: pointer;
+  background-color: rgb(39, 39, 39);
+}
+
+.profile__adjust__profile__button:active {
+  background-color: rgb(102, 102, 102);
+}
+
+.profile__profile__pic {
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  border: 3px solid orange;
+}
+
+.profile__image__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+.profile__image {
+  width: 275px;
+  height: 275px;
+  margin-right: 1rem;
+  margin-top: 1rem; 
+  -webkit-transition: -webkit-transform 0.5s; 
+  transition: -webkit-transform 0.5s; 
+  -o-transition: transform 0.5s; 
+  transition: transform 0.5s; 
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  z-index: 100;
+}
+
+.profile__image:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.profile__image:active {
+  opacity: 0.8;
+}
+
+.profile__no__image__text {
+  font-size: 1.2rem;
+}

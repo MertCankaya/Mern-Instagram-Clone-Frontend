@@ -1,0 +1,74 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.suggestion__wrapper {
+  width: 30rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+.suggestion__card{
+  margin-top: 1rem;
+  min-height: 50rem;
+  background-color: black;
+}
+
+.suggestion__card__inner__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.suggestion__card__info__wrapper{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.suggestion__card__info__wrapper:hover {
+  cursor: pointer;
+}
+.suggestion__card__info__wrapper:active {
+  opacity: 0.8;
+}
+
+.suggestion__card__info__wrapper > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 1rem;
+  background-color: brown;
+}
+
+.suggestion__name {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.suggestion__follow__div {
+  border: 1px solid white;
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.suggestion__follow__div:hover {
+  cursor: pointer;
+}
+
+.suggestion__follow__div:active {
+  opacity: 0.8;
+}

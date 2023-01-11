@@ -1,0 +1,18 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.react-input-emoji--container {
+  border-radius: 0rem !important;
+  border-bottom-left-radius: 5px !important;
+  margin: 0rem !important;
+  background-color: black !important;
+}
+
+.react-emoji {
+  border-top: 1px solid white;
+  margin-top: 0.5rem;
+}

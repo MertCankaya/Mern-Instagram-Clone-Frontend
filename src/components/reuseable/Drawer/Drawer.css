@@ -1,0 +1,20 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.drawer {
+  position: fixed;
+  background-color: rgb(12, 11, 11);
+  top: 0;
+  left: 5.3rem;
+  height: 100%;
+  width: 32rem;
+  border-right: 1px solid white;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  z-index: 100 !important;
+  overflow-y: auto;
+}

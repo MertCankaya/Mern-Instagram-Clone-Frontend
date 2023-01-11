@@ -1,0 +1,104 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.search__wrapper{
+  padding: 1.4rem;
+}
+
+.search__title{
+  font-size: 2rem;
+  margin: 1.2rem 0rem;
+}
+
+.search__input__wrapper {
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid grey;
+}
+
+.search_input {
+  height: 3.4rem;
+  font-size: 1.4rem;
+  background-color: rgb(0, 0, 0) !important;
+  border-color: white !important;
+}
+
+.search_input:hover {
+  border-color: white !important;
+}
+.search_input:focus {
+  border-color: white;
+}
+.search_input:active {
+  border-color: white;
+}
+ 
+.search_input > input {
+  background-color: black;
+  color: white;
+}
+
+.search_input > input::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.search_input > input::-moz-placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.search_input > input:-ms-input-placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.search_input > input::-ms-input-placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.search_input > input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.search__users__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+
+.search__users__wrapper:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.search__users__wrapper:active {
+  opacity: 0.8;
+}
+
+.search__users__wrapper > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+
+.search__user__username {
+  font-weight: bold;
+}
+
+.search__user__email {
+  font-weight: 300;
+}

@@ -1,0 +1,82 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.sign__page__wrapper{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+  background-color: #0e0f0f;
+}
+
+
+.sign__page__wrapper > img {
+  margin-right: 2rem;
+}
+
+
+.sign__page__card {
+  background-color: black;
+  width: 30rem;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 0rem;
+}
+
+.sign__page__card  > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.sign__page__instagram__text__img{
+  width: 15rem;
+  opacity: 0.5;
+  margin-bottom: 2rem;
+}
+
+.sign__page__info__text {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0rem 0rem 2rem 0rem;
+  border-bottom: 1px solid grey;
+  margin-bottom: 2.3rem;
+}
+
+.have__account__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.have__account {
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
+}
+
+.have__account__text {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.have__account__text:hover {
+  cursor: pointer;
+}

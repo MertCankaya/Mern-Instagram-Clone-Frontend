@@ -1,0 +1,89 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.form__wrapper {
+  width: 100%;
+}
+
+.form__button {
+  width: 100%;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: black !important;
+  opacity: 0.8;
+}
+
+.form__input::-moz-placeholder {
+  color: black !important;
+  opacity: 0.8;
+}
+
+.form__input:-ms-input-placeholder {
+  color: black !important;
+  opacity: 0.8;
+}
+
+.form__input::-ms-input-placeholder {
+  color: black !important;
+  opacity: 0.8;
+}
+
+.form__input::placeholder {
+  color: black !important;
+  opacity: 0.8;
+}
+
+.form__input > input::-webkit-input-placeholder {
+  color: black;
+  opacity: 0.8;
+}
+
+.form__input > input::-moz-placeholder {
+  color: black;
+  opacity: 0.8;
+}
+
+.form__input > input:-ms-input-placeholder {
+  color: black;
+  opacity: 0.8;
+}
+
+.form__input > input::-ms-input-placeholder {
+  color: black;
+  opacity: 0.8;
+}
+
+.form__input > input::placeholder {
+  color: black;
+  opacity: 0.8;
+}
+
+.form__button {
+  background-color: black;
+  border-color: white !important;
+  outline-color: white !important;
+}
+
+
+.form__button:hover {
+  background-color: rgb(0, 0, 0) !important;
+  color: black !important;
+  border-color: white !important;
+  opacity: 0.8; 
+  outline-color: white !important;
+}
+
+.form__button:active {
+  border-color: white !important;
+  outline: 0 !important;
+}
+.form__button:focus {
+  border-color: white !important;
+  outline: 0 !important;
+}
+ 
