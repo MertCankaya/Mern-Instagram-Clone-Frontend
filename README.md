@@ -22,7 +22,7 @@ In this project, I have tried to clone Instagram from strach.
 
 1. REACT_APP_BACKEND_URL="http://localhost:8000"
 
-## npm
+## Install dependencies and start the app
 
 ### npm install
 ### npm start
